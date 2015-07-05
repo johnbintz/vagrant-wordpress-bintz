@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": { "node": ">=0.12" },
+  "engines": {
+    "node": ">=0.12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,11 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "browserify": "^9.0.8",
+    "cjsx-loader": "^2.0.1",
     "coffee-reactify": "^3.0.0",
     "coffee-script": "^1.9.2",
     "glob": "^5.0.5",
     "gulp": "^3.8.11",
+    "node-libs-browser": "^0.5.2",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.2.0"
+    "watchify": "^3.2.0",
+    "webpack": "^1.9.10"
   }
 }
