@@ -3,7 +3,7 @@
 command -v VBoxManage || { echo "Install VirtualBox! https://www.virtualbox.org/wiki/Downloads"; exit 1; }
 command -v vagrant || { echo "Install Vagrant! https://www.vagrantup.com/downloads.html"; exit 1; }
 command -v rvm || { echo "Install rvm! http://rvm.io/"; exit 1; }
-command -v nvm || { echo "Install nvm! https://github.com/creationix/nvm"; exit 1; }
+[[ -d ~/.nvm ]] || { echo "Install nvm! https://github.com/creationix/nvm"; exit 1; }
 command -v bundle || { echo "Install bundler! gem install bundler"; exit 1; }
 
 bundle install
